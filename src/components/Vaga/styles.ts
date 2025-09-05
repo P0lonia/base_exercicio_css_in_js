@@ -25,9 +25,9 @@ export const VagaA = styled.li`
 `
 
 export const VagaLink = styled.a`
-  border-color: var(--cor-secundaria);
-  background-color: var(--cor-principal);
-  color: var(--cor-secundaria);
+  border-color: ${Colors.corSecundaria};
+  background-color: ${Colors.corPrincipal};
+  color: ${Colors.corSecundaria};
   display: inline-block;
   padding: 8px 16px;
   text-decoration: none;
@@ -43,8 +43,8 @@ export const VagaLink = styled.a`
   }
 
   :hover {
-    border-color: var(--cor-principal);
-    background-color: var(--cor-secundaria);
-    color: var(--cor-principal);
+    border-color: ${Colors.corPrincipal};
+    background-color: ${Colors.corSecundaria};
+    color: ${Colors.corPrincipal};
   }
 `
